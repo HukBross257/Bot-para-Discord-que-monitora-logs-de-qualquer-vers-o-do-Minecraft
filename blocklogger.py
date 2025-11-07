@@ -22,4 +22,4 @@ def mostrar_logs(dados):
             except Exception as e:
                 print(f'Aconteceu um erro e nao foi possivel enviar para o Discord {e}')
             print(linha)
-        time.sleep(0.2)
+        time.sleep(0.1) 
