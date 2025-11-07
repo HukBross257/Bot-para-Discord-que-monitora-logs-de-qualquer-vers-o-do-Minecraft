@@ -20,4 +20,4 @@ Este script lê o arquivo `server.log` do Minecraft (compatível com praticament
 
 ### Execução via terminal
 ```bash
-python run_blocklogger.py
+python3 run_blocklogger.py
