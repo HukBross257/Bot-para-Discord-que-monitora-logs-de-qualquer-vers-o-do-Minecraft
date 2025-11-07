@@ -5,8 +5,7 @@ import requests
 server_log = '' # Coloque aqui o caminho para o server.log do seu server
 discord_webhook = ''
 def abrir_os_logs():
-    '''Coloque o caminho para o arquivo server.logs aqui'''
-
+    ''' Aonde ira abrir o arquivo '''
     return open(server_log, 'r')
 
 def mostrar_logs(dados):
